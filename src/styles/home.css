@@ -1,0 +1,74 @@
+.container {
+    background-color: #9adedb;
+    margin: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 4rem;
+    padding: 15px 9%;
+}
+
+
+.container h1{
+    margin-bottom: 10px;
+    display: initial;
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 30px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .icon{
+    color: #333;
+    font-size: 26px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+
+.container .btn-container {
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;    
+    margin: 20px;
+    display: none;
+}
+
+
+.container .btn-container .btn {
+    background: #1db9b1;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+#check{
+    display: none;
+}
+
+#check:checked~.btn-container{
+    display: grid;
+    transition: 0.5s;
+}
+.newsitem{
+    margin-top: 10px;
+}
+.newsitem .news-heading{
+    position: relative;
+    padding: 5px;
+    top: 4rem;
+    text-align: center;
+    border-bottom: 4px solid #1db9b1 ;
+}
+.newsitem .map{
+    position: relative;
+    background:linear-gradient(45deg, #1db9b1, black);
+    top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 15px;
+    margin-top: 5px;
+    margin-bottom: 110px ;
+}
