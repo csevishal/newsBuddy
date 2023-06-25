@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/csevishal/newsBuddy.git/static/css/main.e2ca26ce.css",
+    "main.js": "/csevishal/newsBuddy.git/static/js/main.e30aa0f5.js",
+    "index.html": "/csevishal/newsBuddy.git/index.html",
+    "main.e2ca26ce.css.map": "/csevishal/newsBuddy.git/static/css/main.e2ca26ce.css.map",
+    "main.e30aa0f5.js.map": "/csevishal/newsBuddy.git/static/js/main.e30aa0f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2ca26ce.css",
+    "static/js/main.e30aa0f5.js"
+  ]
+}
